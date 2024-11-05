@@ -1,0 +1,212 @@
+.hero-container {
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 1280px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 40px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.hero-header-container {
+  color: var(--dark-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-header {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
+}
+
+.hero-birthday {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+/* Мобільні стилі
+
+@media screen and (max-width: 767px) {
+    .hero {
+      padding-top: 44px;
+    }
+  
+    .hero-embroidery {
+      display: none;
+    }
+  
+    .hero-made-by-hand-img {
+      display: none;
+    }
+  }
+  
+  .hero-main-header-and-btn {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero-header {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.23;
+    letter-spacing: -0.03em;
+    color: #fcf9f9;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero-ukrainian {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.23;
+    letter-spacing: -0.03em;
+    color: #ecd979;
+  }
+  
+  .hero-btn-order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    background-color: transparent;
+    color: #fcf9f9;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    padding: 14px 36px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    gap: 10px;
+    width: 154px;
+  }
+  
+  .hero-btn-order:hover,
+  .hero-btn-order:focus {
+    border: 1px solid #ecd979;
+  }
+  
+  .hero-picture {
+    width: 100%;
+    display: block;
+  }
+  
+  /* Планшетні стилі */
+
+/* @media screen and (min-width: 768px) {
+    .hero {
+      padding-top: 60px;
+    }
+  
+    .hero-container {
+      position: relative;
+    }
+  
+    .hero-main-header-and-btn {
+      gap: 40px;
+      width: 549px;
+    }
+  
+    .hero-header {
+      font-size: 54px;
+      line-height: 1.19;
+      margin-bottom: 40px;
+      min-width: 549px;
+      margin: 0;
+      padding-top: 26px;
+    }
+  
+    .hero-ukrainian {
+      font-size: 54px;
+      line-height: 1.19;
+    }
+  
+    .hero-btn-order {
+      width: 168px;
+      margin-left: 141px;
+      margin-right: 240px;
+    }
+  
+    .hero-picture {
+      width: 413px;
+    }
+  
+    .hero-embroidery {
+      position: absolute;
+      right: 32px;
+      top: 0;
+      width: 115px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .hero-made-by-hand {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.04em;
+      color: rgba(252, 249, 249, 0.4);
+    }
+  
+    .hero-made-by-hand-img {
+      position: absolute;
+      right: 32px;
+      top: 825px;
+    }
+  }
+  
+  /* Десктопні стилі */
+
+/* @media screen and (min-width: 1280px) {
+    .hero {
+      padding-top: 80px;
+    }
+  
+    .hero-container {
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 40px;
+      justify-content: flex-end;
+    }
+  
+    .hero-header {
+      min-width: 518px;
+      padding-top: 0;
+    }
+  
+    .hero-picture {
+      width: 392px;
+    }
+  
+    .hero-embroidery {
+      right: 100px;
+    }
+  
+    .hero-main-header-and-btn {
+      padding-top: 94px;
+    }
+  
+    .hero-made-by-hand-img {
+      top: 442px;
+      right: 97px;
+    }
+  
+    .hero-btn-order {
+      margin-right: 209px;
+    }
+  } * */

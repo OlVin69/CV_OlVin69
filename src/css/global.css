@@ -1,0 +1,27 @@
+:root {
+    font-family: 'Manrope', 'DM Sans', sans-serif;
+
+    --dark-color: #1c2225;
+    --yellow-color: #ecd979;
+    --white-color: #fcf9f9;
+    --placeholder-color: rgba(252, 249, 249, 0.5);
+    --p-color: rgba(252, 249, 249, 0.4);
+}
+
+body {
+    background-color: var(--white-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+    color: var(--dark-color);
+}
+
+
+
+section {
+    margin: 0 auto;
+}
